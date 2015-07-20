@@ -4,8 +4,10 @@ gem 'rails', '4.2.1'
 
 gem 'bootstrap-sass'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
+gem 'jquery-rails'
+gem 'jquery-turbolinks'
+gem 'markdownjs-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'sqlite3'
 gem 'turbolinks'
