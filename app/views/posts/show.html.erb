@@ -1,0 +1,10 @@
+<h1><%= @post.title %></h1>
+
+<p><%= @post.body %></p>
+
+<div class="">
+  <%= link_to "Edit", edit_post_path(@post) %>
+</div>
+<div class="">
+  <%= link_to "Delete", post_path(@post), method: "delete" %>
+</div>
